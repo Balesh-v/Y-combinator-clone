@@ -1,11 +1,16 @@
 /* --------------- css --------------- */
+@font-face {
+    font-family: myFont;
+    src: url("../Font/AvenirLTStd-Light.otf");
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: av
+    font-family: 'myFont';
 }
+
 
 /* -------------------- Header ----------------- */
 
@@ -15,6 +20,7 @@
     background: #F0F0E9;
     display: flex;
     align-items: center;
+    font-size: 15.3px;
 }
 
 /* -------------- Logo -------------- */
@@ -46,4 +52,22 @@
     text-decoration: none;
     color: black;
     border-radius: 20px;
+}
+
+.batch{
+    margin-left: 140px;
+}
+
+#btn{
+    background-color: #FB651E;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none; 
+}
+
+#btn:hover{
+   box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 10px 18px inset;
 }
