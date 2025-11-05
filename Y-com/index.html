@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- ----------------------------- Header ----------------------------------- -->
@@ -15,16 +16,64 @@
         </div>
         <nav id="NavBar">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Companies</a></li>
-                <li><a href="#">Startup Jobs</a></li>
+                <div class="dropdown">
+                    <li class="drop1"><a href="#">About</a></li>
+                    <div class="dropdown-content">
+                        <a href="#">What Happens at YC?</a>
+                        <a href="#">Apply</a>
+                        <a href="#">YC Interview Guide</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">People</a>
+                        <a href="#">YC Blog</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li><a href="#">Companies</a></li>
+                    <div class="dropdown-content" style="min-width: 170px;">
+                        <a href="#">Startup Directory</a>
+                        <a href="#">Founder Directory</a>
+                        <a href="#">Launch YC</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li><a href="#">Startup Jobs</a></li>
+                    <div class="dropdown-content" style="min-width: 190px;">
+                        <a href="#">All Jobs</a>
+                        <div class="tre2">
+                            <i class="fa-regular fa-circle tep2"></i>
+                            <a class="tep1" href="#" style="margin: calc(10px - 20px) 0px 0px 20px;padding-left: 30px;">Engineering</a>
+                            <i class="fa-regular fa-circle setr4"></i>
+                            <a href="#" style="margin: calc(10px - 20px) 0px 0px 20px; padding-left:30px ;">Operations</a>
+                            <i class="fa-regular fa-circle setr5"></i>
+                            <a href="#" style="margin: calc(10px - 20px) 0px 0px 20px; padding-left: 30px;">Marketing</a>
+                            <i class="fa-regular fa-circle setr6"></i>
+                            <a href="#" style="margin: calc(10px - 20px) 0px -10px 20px; padding-left: 30px;">Sales</a>
+                        </div>
+                        <a href="#">Internships</a>
+                        <a href="#">Startup Job Guide</a>
+                        <a href="#">YC Startup Jobs Blog</a>
+                    </div>
+                </div>
                 <li><a href="#">Find a Co-founder</a></li>
                 <li><a href="#">Library</a></li>
                 <li><a href="#">SAFE</a></li>
-                <li><a href="#">Resources</a></li>
+                <div class="dropdown">
+                    <li><a href="#">Resources</a></li>
+                    <div class="dropdown-content">
+                        <a href="#">Startup School</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">Request for Startups</a>
+                        <a href="#">For investors</a>
+                        <a href="#">Verify founders</a>
+                        <a href="#">Hacker News</a>
+                        <a href="#">Bookface</a>
+                    </div>
+                </div>
                 <li class="batch"><a href="">Apply for W2026 batch.</a></li>
                 <button id="btn">Apply</button>
             </ul>
+            <!-- -------------- dropdown -------------- -->
+
         </nav>
     </header>
     
