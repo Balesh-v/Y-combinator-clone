@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  #Header{
+    height: 80px;
+  }
+}
