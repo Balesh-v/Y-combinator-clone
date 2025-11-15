@@ -6,4 +6,17 @@
   #Header{
     height: 80px;
   }
+
+  .logo{
+    margin-left: 13px;
+    width: 50px;
+  }
+
+  .spacer{
+    display: block;
+  }
+
+  .dropdown , .list1 , .batch , #btn{ 
+    display: none;
+  }
 }

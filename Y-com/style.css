@@ -155,4 +155,21 @@
     left: 15px;
 }
 
+/* ------------------- Menu ------------------- */
 
+.spacer{
+    display: none;
+    font-size: 25px;
+    margin-left: 275px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: #FFFFFF;
+}
+
+.spacer:hover{
+    background-color: transparent;
+}
+
+.fa-bars{
+    color: rgb(156, 163, 175);
+}
