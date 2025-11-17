@@ -19,4 +19,9 @@
   .dropdown , .list1 , .batch , #btn{ 
     display: none;
   }
+
+  /* .Mobile-open{
+  display: block;
+  } */
+
 }
