@@ -20,8 +20,12 @@
     display: none;
   }
 
-  /* .Mobile-open{
-  display: block;
-  } */
+   .mobileLogo{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 60px;
+    padding: 10px;
+    margin-top: calc(20px - 70px);
+   }
 
 }

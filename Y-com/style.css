@@ -184,6 +184,7 @@
     position:  absolute;
     top: 10px;
     left: 12px;
+   
 }
 
 .def{
@@ -195,7 +196,7 @@
     margin-right: 40px;
     cursor: pointer;
     padding: 8px;
-    border: 3px solid #ff811b;
+    
 }
 
 .def:hover{
