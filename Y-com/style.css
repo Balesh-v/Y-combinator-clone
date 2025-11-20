@@ -203,3 +203,27 @@
     background-color: #F0F0E9;
    
 }
+
+
+.dropdown-content-mobile a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 25px;
+    /* margin-left: 25px; */
+}
+
+.dropdown-content-mobile a:hover{
+    background-color: #F0F0E9;
+}
+
+
+.dropdown-content-mobile{
+    display: none;
+}
+
+/* .box:hover .dropdown-content-mobile{
+    display: block;
+} */
+
+
