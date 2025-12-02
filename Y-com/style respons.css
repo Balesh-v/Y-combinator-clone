@@ -22,7 +22,6 @@
 
    .mobileLogo{
     display: flex;
-    /* border: 1px solid black; */
     height: 60px;
     padding: 10px;
     margin-top: calc(20px - 70px);
@@ -42,7 +41,7 @@
      padding: 12px 0px 12px 16px;
      text-decoration: none;
      color: black;
-     /* border: 1px solid black; */
+
    }
 
    .fa-angle-down{

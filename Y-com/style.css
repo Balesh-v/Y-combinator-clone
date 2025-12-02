@@ -210,7 +210,6 @@
     text-decoration: none;
     color: black;
     padding: 10px 10px 10px 25px;
-    /* margin-left: 25px; */
 }
 
 .dropdown-content-mobile a:hover{
@@ -221,9 +220,3 @@
 .dropdown-content-mobile{
     display: none;
 }
-
-/* .box:hover .dropdown-content-mobile{
-    display: block;
-} */
-
-
