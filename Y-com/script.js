@@ -2,8 +2,9 @@ let spacer = document.querySelector('.spacer');
 let MobileOpen = document.querySelector('.Mobile-open');
 let  faXmark = document.querySelector('.def')
 let body = document.querySelector('body');  
-let drop = document.querySelectorAll(".box")[0];
-let dropContent = document.querySelectorAll(".dropdown-content-mobile")[0]
+let drop = document.querySelectorAll(".box");
+console.log(drop)
+let dropContent = document.querySelectorAll(".dropdown-content-mobile")
 console.log(dropContent)
 
 
@@ -21,12 +22,20 @@ faXmark.addEventListener('click', function() {
 
 
 
-drop.addEventListener('click', function(){
-    if(dropContent.style.display === "none"){
-        dropContent.style.display = "block";
+drop[0].addEventListener('click', function(){
+    if(dropContent[0].style.display === "none"){
+        dropContent[0].style.display = "block";
     } else {
-        dropContent.style.display = "none"
+        dropContent[0].style.display = "none"
     }
-
-
 })
+
+drop[1].addEventListener('click', function(){
+    if(dropContent[1].style.display === "none"){
+        dropContent[1].style.display = "block";
+    } else {
+        dropContent[1].style.display = "none"
+    }
+    dropContent[0].style.display = "none";
+})
+
