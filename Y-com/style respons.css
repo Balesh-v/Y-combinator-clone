@@ -50,5 +50,44 @@
     font-size: 10px;
    }
 
+   .tre2{
+    margin: 0px 5px 10px calc(10px - 15px);
+   }
+
+   .fa-regular{
+    left: 30px;
+    top: 247px;
+   }
+
+   .setr4{
+    top: 275px;
+   }
+
+    .setr5{
+      top: 306px;
+    }
+
+    .setr6{
+      top: 330px;
+    }
+
+    .internships{
+      margin-top:calc(20px - 30px);
+    }
+
+    .batch-mobile{
+      margin: 10px 0px 0px 0px;
+      padding: 12px 0px 12px 16px;
+      text-decoration: none;
+      color: #E74D04;
+      text-align: center;
+      font-weight: bold;
+      background-color: #f7f7f7;
+    }
+
+    .batch-mobile:hover{
+      background-color: lightgray;
+    }
+
 
 }

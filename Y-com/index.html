@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!----------------------------- Title ---------------------------->
 
@@ -10,184 +10,237 @@
 
     <!-- -------------------------- Logo -------------------------- -->
 
-    <link rel="shortcut icon" href="Images/YComLogo.png" type="image/x-icon">
- 
+    <link rel="shortcut icon" href="Images/YComLogo.png" type="image/x-icon" />
+
     <!-- ------------------------ Stylesheet ------------------------->
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style respons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
-<body>
-    
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style respons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- ----------------------------- Header ----------------------------------- -->
 
     <header id="Header">
-        <!-- -------------------------- Logo -------------------------- -->
+      <!-- -------------------------- Logo -------------------------- -->
 
-        <div class="logo">
-            <img src="Images/YComLogo.png" alt="YCom Logo" width="56px" height="56px">
+      <div class="logo">
+        <img
+          src="Images/YComLogo.png"
+          alt="YCom Logo"
+          width="56px"
+          height="56px"
+        />
+      </div>
+
+      <!-- -------------------------- Navigation Bar -------------------------- -->
+
+      <nav id="NavBar">
+        <ul>
+          <!-- ----------------- Link With Dropdown 1 ----------------- -->
+
+          <div class="dropdown">
+            <li><a href="#">About</a></li>
+            <div class="dropdown-content">
+              <a href="#">What Happens at YC?</a>
+              <a href="#">Apply</a>
+              <a href="#">YC Interview Guide</a>
+              <a href="#">FAQ</a>
+              <a href="#">People</a>
+              <a href="#">YC Blog</a>
+            </div>
+          </div>
+
+          <!-- ----------------- Link With Dropdown 2 ----------------- -->
+
+          <div class="dropdown">
+            <li><a href="#">Companies</a></li>
+            <div class="dropdown-content">
+              <a href="#">Startup Directory</a>
+              <a href="#">Founder Directory</a>
+              <a href="#">Launch YC</a>
+            </div>
+          </div>
+
+          <!-- ----------------- Link With Dropdown 3 ----------------- -->
+
+          <div class="dropdown">
+            <li><a href="#">Startup Jobs</a></li>
+            <div class="dropdown-content">
+              <a href="#">All Jobs</a>
+              <div class="tre2">
+                <i class="fa-regular fa-circle"></i>
+                <a href="#">Engineering</a>
+                <i class="fa-regular fa-circle setr4"></i>
+                <a href="#">Operations</a>
+                <i class="fa-regular fa-circle setr5"></i>
+                <a href="#">Marketing</a>
+                <i class="fa-regular fa-circle setr6"></i>
+                <a href="#">Sales</a>
+              </div>
+              <a href="#">Internships</a>
+              <a href="#">Startup Job Guide</a>
+              <a href="#">YC Startup Jobs Blog</a>
+            </div>
+          </div>
+
+          <!-- ----------------- Link 4 ----------------- -->
+
+          <li class="list1"><a href="#">Find a Co-founder</a></li>
+
+          <!-- ----------------- Link 5 ----------------- -->
+
+          <li class="list1"><a href="#">Library</a></li>
+
+          <!-- ----------------- Link 6 ----------------- -->
+
+          <li class="list1"><a href="#">SAFE</a></li>
+
+          <!-- ----------------- Link With Dropdown 7 ----------------- -->
+
+          <div class="dropdown">
+            <li><a href="#">Resources</a></li>
+            <div class="dropdown-content">
+              <a href="#">Startup School</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Request for Startups</a>
+              <a href="#">For investors</a>
+              <a href="#">Verify founders</a>
+              <a href="#">Hacker News</a>
+              <a href="#">Bookface</a>
+            </div>
+          </div>
+
+          <!-- ----------------- Link 8 ----------------- -->
+
+          <li class="batch"><a href="">Apply for W2026 batch.</a></li>
+
+          <!-- -------------- Button -------------- -->
+
+          <button id="btn">Apply</button>
+
+          <!-- -------------  Menu For Mobile ------------- -->
+
+          <div class="spacer">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <!-- -------------- click open -------------- -->
+        </ul>
+      </nav>
+
+      <div class="Mobile-open">
+        <div class="def">
+          <i class="fa-solid fa-xmark"></i>
         </div>
 
-        <!-- -------------------------- Navigation Bar -------------------------- -->
-
-        <nav id="NavBar">
-            <ul>
-
-                <!-- ----------------- Link With Dropdown 1 ----------------- -->
-
-                <div class="dropdown">
-                    <li><a href="#">About</a></li>
-                    <div class="dropdown-content">
-                        <a href="#">What Happens at YC?</a>
-                        <a href="#">Apply</a>
-                        <a href="#">YC Interview Guide</a>
-                        <a href="#">FAQ</a>
-                        <a href="#">People</a>
-                        <a href="#">YC Blog</a>
-                    </div>
-                </div>
-
-                <!-- ----------------- Link With Dropdown 2 ----------------- -->
-
-                <div class="dropdown">
-                    <li><a href="#">Companies</a></li>
-                    <div class="dropdown-content">
-                        <a href="#">Startup Directory</a>
-                        <a href="#">Founder Directory</a>
-                        <a href="#">Launch YC</a>
-                    </div>
-                </div>
-
-                <!-- ----------------- Link With Dropdown 3 ----------------- -->
-
-                <div class="dropdown">
-                    <li><a href="#">Startup Jobs</a></li>
-                    <div class="dropdown-content">
-                        <a href="#">All Jobs</a>
-                        <div class="tre2">
-                            <i class="fa-regular fa-circle"></i>
-                            <a href="#">Engineering</a>
-                            <i class="fa-regular fa-circle setr4"></i>
-                            <a href="#">Operations</a>
-                            <i class="fa-regular fa-circle setr5"></i>
-                            <a href="#">Marketing</a>
-                            <i class="fa-regular fa-circle setr6"></i>
-                            <a href="#">Sales</a>
-                        </div>
-                        <a href="#">Internships</a>
-                        <a href="#">Startup Job Guide</a>
-                        <a href="#">YC Startup Jobs Blog</a>
-                    </div>
-                </div>
-
-                <!-- ----------------- Link 4 ----------------- -->
-
-                <li class="list1"><a href="#">Find a Co-founder</a></li>
-
-                <!-- ----------------- Link 5 ----------------- -->
-
-                <li class="list1"><a href="#">Library</a></li>
-
-                <!-- ----------------- Link 6 ----------------- -->
-
-                <li class="list1"><a href="#">SAFE</a></li>
-
-                <!-- ----------------- Link With Dropdown 7 ----------------- -->
-
-                <div class="dropdown">
-                    <li><a href="#">Resources</a></li>
-                    <div class="dropdown-content">
-                        <a href="#">Startup School</a>
-                        <a href="#">Newsletter</a>
-                        <a href="#">Request for Startups</a>
-                        <a href="#">For investors</a>
-                        <a href="#">Verify founders</a>
-                        <a href="#">Hacker News</a>
-                        <a href="#">Bookface</a>
-                    </div>
-                </div>
-
-                <!-- ----------------- Link 8 ----------------- -->
-
-                <li class="batch"><a href="">Apply for W2026 batch.</a></li>
-
-                <!-- -------------- Button -------------- -->
-
-                <button id="btn">Apply</button>
-
-                <!-- -------------  Menu For Mobile ------------- -->
-
-                <div class="spacer">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-
-                <!-- -------------- click open -------------- -->
-            </ul>
-        </nav>
-        <div class="Mobile-open">
-            <div class="def">
-                <i class="fa-solid fa-xmark "></i>
-            </div>
-
-            <div class="logo mobileLogo">
-                <img src="Images/YComLogo.png" alt="YCom Logo" width="45px" height="45px">
-            </div>
-
-            <div class="mobile-links">
-             <div>
-                 <div class="box">
-                     <a href="#">About</a>
-                     <i class="fa-solid fa-angle-down"></i>
-                    </div>
-                    <div class="dropdown-content-mobile">
-                           <a href="#">What Happens at YC?</a>
-                           <a href="#">Apply</a>
-                           <a href="#">YC Interview Guide</a>
-                           <a href="#">FAQ</a>
-                           <a href="#">People</a>
-                           <a href="#">YC Blog</a>
-                    </div>
-             </div>
-
-             <div>
-                 <div class="box">
-                     <a href="#">Companies</a>
-                     <i class="fa-solid fa-angle-down"></i>
-                 </div>
-                 <div class="dropdown-content-mobile">
-                        <a href="#">Startup Directory</a>
-                        <a href="#">Founder Directory</a>
-                        <a href="#">Launch YC</a>
-                 </div>
-             </div>
-               
-                <div class="box">
-                    <a href="#">Startup Jobs</a>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="box">
-                    <a href="#">Find a Co-founder</a>
-                </div>
-                <div class="box">
-                    <a href="#">Library</a>
-                </div>
-                <div class="box">
-                    <a href="#">SAFE</a>
-                </div>
-                <div class="box">
-                    <a href="#">Resources</a>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div class="box">
-                    <a href="#">Log in</a>
-                </div>
-            </div>
+        <div class="logo mobileLogo">
+          <img
+            src="Images/YComLogo.png"
+            alt="YCom Logo"
+            width="45px"
+            height="45px"
+          />
         </div>
+
+        <div class="mobile-links">
+          <div>
+            <div class="box">
+              <a href="#">About</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="dropdown-content-mobile">
+              <a href="#">What Happens at YC?</a>
+              <a href="#">Apply</a>
+              <a href="#">YC Interview Guide</a>
+              <a href="#">FAQ</a>
+              <a href="#">People</a>
+              <a href="#">YC Blog</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="box">
+              <a href="#">Companies</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="dropdown-content-mobile">
+              <a href="#">Startup Directory</a>
+              <a href="#">Founder Directory</a>
+              <a href="#">Launch YC</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="box">
+              <a href="#">Startup Jobs</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="dropdown-content-mobile">
+              <a href="#">All Jobs</a>
+              <div class="tre2">
+                <i class="fa-regular fa-circle"></i>
+                <a href="#">Engineering</a>
+                <i class="fa-regular fa-circle setr4"></i>
+                <a href="#">Operations</a>
+                <i class="fa-regular fa-circle setr5"></i>
+                <a href="#">Marketing</a>
+                <i class="fa-regular fa-circle setr6"></i>
+                <a href="#">Sales</a>
+              </div>
+
+              <a href="#" class="internships">Internships</a>
+              <a href="#">Startup Job Guide</a>
+              <a href="#">YC Startup Jobs Blog</a>
+            </div>
+          </div>
+
+            <div class="box">
+              <a href="#">Find a Co-founder</a>
+            </div>
+
+          <div class="box">
+            <a href="#">Library</a>
+          </div>
+
+          <div class="box">
+            <a href="#">SAFE</a>
+          </div>
+
+          <div>
+            <div class="box">
+              <a href="#">Resources</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="dropdown-content-mobile">
+              <a href="#">Startup School</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Request for Startups</a>
+              <a href="#">For investors</a>
+              <a href="#">Verify founders</a>
+              <a href="#">Hacker News</a>
+              <a href="#">Bookface</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <a href="#">Log in</a>
+          </div>
+
+          <div class="batch-mobile">
+            <p>Apply for spring 2026 batch</p>
+          </div>
+
+        </div>
+      </div>
     </header>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
