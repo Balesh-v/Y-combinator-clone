@@ -1,6 +1,6 @@
 @media screen and (max-width: 580px) {
   body {
-    background-color: lightgreen;
+     background-color: #F0F0E9;
   }
 
   #Header{
@@ -16,7 +16,7 @@
     display: block;
   }
 
-  .dropdown , .list1 , .batch , #btn{ 
+  .dropdown , .list1 , .batch , .btn-hero{ 
     display: none;
   }
 
@@ -30,7 +30,7 @@
    .mobile-links{
     margin: 10px;
     position: relative;
-    z-index: 6;
+    z-index: 10;
 
    }
 
@@ -57,20 +57,20 @@
    }
 
    .fa-regular{
-    left: 30px;
-    top: 247px;
+    left: 20px;
+    top: 175px;
    }
 
    .setr4{
-    top: 275px;
+    top: 198px;
    }
 
     .setr5{
-      top: 306px;
+      top: 225px;
     }
 
     .setr6{
-      top: 330px;
+      top: 255px;
     }
 
     .internships{
@@ -89,6 +89,40 @@
 
     .batch-mobile:hover{
       background-color: lightgray;
+    }
+
+    #hero-section{
+      flex-direction: column;
+      align-items: center;
+      padding: 85px;
+      height: auto;
+      position: relative;
+      z-index: -1;
+    }
+
+
+    .hero-section-img{
+      display: none;
+    }
+
+    .funded-st{
+      display: none;
+    }
+
+    .hero-section-text{
+      margin-left: 20px;
+    }
+
+    .heading-1{
+      font-size: 35px;
+    }
+
+    .btn-hero1{
+      display: block;
+    }
+
+    .para1{
+      font-size: 23px;
     }
 
 
