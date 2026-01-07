@@ -289,7 +289,6 @@ body{
 
 
 .letter2{
-    /* letter-spacing: 2px; */
     font-size: 16px;
     margin-top: 8px;
 }
@@ -308,10 +307,8 @@ body{
 .tag-section {
     width: auto;
     height: auto;
-    /* margin: 40px; */
     margin: 38px;
     text-align: center;
-    /* border: 1px solid black; */
     scrollbar-color: red;
     padding: 30px;
 }
@@ -334,7 +331,6 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* border: 1px solid black; */
     padding: 8px 12px;
     border-radius: 10px;
     font-size: 14px;
@@ -344,12 +340,42 @@ body{
     font-size: 25px;
 }
 
+/* ---------------------------------- help container ------------------------------------------ */
+
 .help-container{
-     margin: 10px 15px 30px 15px ;
-    height: 28.6em;
+    margin: 0px 15px 30px 15px ;
+    height: 27em;
     background-color: #FFFFFF;
     display: flex;
-    position: relative;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
 
+.help-item1{
+    width: 50%;
+    height: 150px; 
+    text-align: center;
+    font-size: 15px;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #FB651E;
+}
+
+.help-item2{
+    display: flex;
+    gap: 100px;
+}
+
+.help-number1{
+    border-left: 3px solid #FB651E;
+    height: 125px; 
+    text-align: left;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 30px;
 }
