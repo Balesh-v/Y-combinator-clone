@@ -15,7 +15,18 @@
 
   .spacer{
     display: block;
+    margin-left: 265px;
   }
+
+  .Mobile-open{
+    width: 355px;    
+  }
+
+  .def{
+        margin-left: 282px;
+  }
+
+ 
 
   .dropdown , .list1 , .batch , .btn-hero{ 
     display: none;
@@ -129,7 +140,16 @@
 
     .tag-section{
       margin: 0px;
-    }
+     }
+
+     /* ----------------------- help section -----------------------------------------*/
+
+     .help-item1{
+       border: 1px solid black;
+       /* font-size: 10px; */
+       width: 100%;
+      
+     }
 
 
 }
