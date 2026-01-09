@@ -355,10 +355,10 @@ body{
 }
 
 .help-item1{
-    width: 50%;
-    height: 150px; 
+    width: 39%;
     text-align: center;
     font-size: 15px;
+
 }
 
 .highlight{
@@ -368,6 +368,7 @@ body{
 
 .help-item2{
     display: flex;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -378,4 +379,5 @@ body{
     font-size: 18px;
     padding-left: 10px;
     line-height: 30px;
+    width: 14%;
 }
