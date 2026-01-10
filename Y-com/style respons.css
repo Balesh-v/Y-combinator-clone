@@ -1,7 +1,6 @@
 @media screen and (max-width: 580px) {
   body {
      background-color: #F0F0E9;
-  
   }
 
   #Header{
@@ -165,6 +164,13 @@
      .help-number1{
       width: 100%;
       height: auto;
+     }
+
+     /* ---------------------------- succes sectio ---------------------- */
+
+     #vid{
+      width: 350px;
+      height: 220px;
      }
 
 

@@ -343,7 +343,7 @@ body{
 /* ---------------------------------- help container ------------------------------------------ */
 
 .help-container{
-    margin: 0px 15px 30px 15px ;
+    margin: 0px 15px 50px 15px ;
     height: 27em;
     background-color: #FFFFFF;
     display: flex;
@@ -358,6 +358,7 @@ body{
     width: 39%;
     text-align: center;
     font-size: 15px;
+    padding-bottom: 30px;
 
 }
 
@@ -380,4 +381,16 @@ body{
     padding-left: 10px;
     line-height: 30px;
     width: 14%;
+}
+
+/* ----------------------------- sucess-section ---------------------------------------- */
+
+#success-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 14px;
+    padding: 0px 0px 50px 0px;
 }
