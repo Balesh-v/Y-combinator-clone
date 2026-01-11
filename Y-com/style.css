@@ -403,7 +403,7 @@ body{
 }
 
 .card-container h1{
-    /* border: 1px solid black; */
+    
     font-size: 30px;
     width: 50%;
     text-align: center;
@@ -419,21 +419,21 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .box1{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid black;
     width: 40%;
-    min-height:550px ;
-    padding: 40px;
+    min-height:200px ;
+    padding: 50px 40px 30px 40px; 
+    /* padding: 30px; */
     justify-content: center;
-    /* align-items: center; */
     border-radius:10px ;
     background-color: #F5F5EE;
-}
+} 
 
 .tmg{
     border-radius: 10px;
@@ -450,10 +450,12 @@ body{
     flex-direction: column;
     justify-content: left;
     gap: 20px;
+   
 }
 
 .text-are p{
     /* border: 1px solid black; */
     text-align: justify;
     line-height:25px;
+    min-height:180px ;
 }
