@@ -1,177 +1,200 @@
 @media screen and (max-width: 580px) {
   body {
-     background-color: #F0F0E9;
+    background-color: #f0f0e9;
   }
 
-  #Header{
+  #Header {
     height: 80px;
   }
 
-  .logo{
+  .logo {
     margin-left: 13px;
     width: 50px;
   }
 
-  .spacer{
+  .spacer {
     display: block;
     margin-left: 265px;
   }
 
-  .Mobile-open{
-    width: 355px;    
+  .Mobile-open {
+    width: 355px;
   }
 
-  .def{
-        margin-left: 282px;
+  .def {
+    margin-left: 282px;
   }
 
- 
-
-  .dropdown , .list1 , .batch , .btn-hero{ 
+  .dropdown,
+  .list1,
+  .batch,
+  .btn-hero {
     display: none;
   }
 
-   .mobileLogo{
+  .mobileLogo {
     display: flex;
     height: 60px;
     padding: 10px;
     margin-top: calc(20px - 70px);
-   }
+  }
 
-   .mobile-links{
+  .mobile-links {
     margin: 10px;
     position: relative;
     z-index: 10;
+  }
 
-   }
+  .box:hover {
+    background-color: lightgray;
+  }
 
-     .box:hover {
-      background-color: lightgray;
-     }
+  .box a {
+    display: inline-block;
+    padding: 12px 0px 12px 16px;
+    text-decoration: none;
+    color: black;
+  }
 
-   .box a{
-     display: inline-block;
-     padding: 12px 0px 12px 16px;
-     text-decoration: none;
-     color: black;
-
-   }
-
-   .fa-angle-down{
+  .fa-angle-down {
     position: relative;
     top: 0px;
     font-size: 10px;
-   }
+  }
 
-   .tre2{
+  .tre2 {
     margin: 0px 5px 10px calc(10px - 15px);
-   }
+  }
 
-   .fa-regular{
+  .fa-regular {
     left: 20px;
     top: 175px;
-   }
+  }
 
-   .setr4{
+  .setr4 {
     top: 198px;
-   }
+  }
 
-    .setr5{
-      top: 225px;
-    }
+  .setr5 {
+    top: 225px;
+  }
 
-    .setr6{
-      top: 255px;
-    }
+  .setr6 {
+    top: 255px;
+  }
 
-    .internships{
-      margin-top:calc(20px - 30px);
-    }
+  .internships {
+    margin-top: calc(20px - 30px);
+  }
 
-    .batch-mobile{
-      margin: 10px 0px 0px 0px;
-      padding: 12px 0px 12px 16px;
-      text-decoration: none;
-      color: #E74D04;
-      text-align: center;
-      font-weight: bold;
-      background-color: #f7f7f7;
-    }
+  .batch-mobile {
+    margin: 10px 0px 0px 0px;
+    padding: 12px 0px 12px 16px;
+    text-decoration: none;
+    color: #e74d04;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f7f7f7;
+  }
 
-    .batch-mobile:hover{
-      background-color: lightgray;
-    }
+  .batch-mobile:hover {
+    background-color: lightgray;
+  }
 
-    #hero-section{
-      width: 93%;
-      flex-direction: column;
-      align-items: center;
-      padding: 85px;
-      height: auto;
-      position: relative;
-      z-index: -1;
-    }
+  #hero-section {
+    width: 93%;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px;
+    height: auto;
+    position: relative;
+    z-index: -1;
+  }
 
+  .hero-section-img {
+    display: none;
+  }
 
-    .hero-section-img{
-      display: none;
-    }
+  .funded-st {
+    display: none;
+  }
 
-    .funded-st{
-      display: none;
-    }
+  .hero-section-text {
+    margin-left: 20px;
+  }
 
-    .hero-section-text{
-      margin-left: 20px;
-    }
+  .heading-1 {
+    font-size: 35px;
+  }
 
-    .heading-1{
-      font-size: 35px;
-    }
+  .btn-hero1 {
+    display: block;
+  }
 
-    .btn-hero1{
-      display: block;
-    }
+  .para1 {
+    font-size: 23px;
+  }
 
-    .para1{
-      font-size: 23px;
-    }
+  .tag-section {
+    margin: 0px;
+  }
 
-    .tag-section{
-      margin: 0px;
-     }
+  /* ----------------------- help section -----------------------------------------*/
 
-     /* ----------------------- help section -----------------------------------------*/
+  .help-item1 {
+    width: 100%;
+    font-size: 15.5px;
+  }
 
-     .help-item1{
-       width: 100%;
-       font-size: 15.50px;
-      
-     }
+  .help-container {
+    height: auto;
+    padding: 80px 0px 0px 0px;
+  }
 
-     .help-container{
-      height: auto;
-      padding: 80px 0px 0px 0px;
-     }
+  .help-item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0px;
+  }
 
-     .help-item2{
-       display: flex;
-       flex-direction: column;
-       gap: 50px;
-       padding:50px 0px;
-     }
+  .help-number1 {
+    width: 100%;
+    height: auto;
+  }
 
-     .help-number1{
-      width: 100%;
-      height: auto;
-     }
+  /* ---------------------------- succes sectio ---------------------- */
 
-     /* ---------------------------- succes sectio ---------------------- */
+  #vid {
+    width: 350px;
+    height: 220px;
+  }
 
-     #vid{
-      width: 350px;
-      height: 220px;
-     }
+  /* ------------------------- card-section ------------------------- */
 
+  .card-container h1 {
+    width: 100%;
+    padding: 10px;
+  }
 
+  .card-section-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px ;
+  }
+
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+    min-height: 200px;
+    padding: 20px;
+  }
+
+  .tmg{
+    margin-top: 10px;
+    width: 100%;
+
+  }
 }
