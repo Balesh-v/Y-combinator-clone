@@ -439,6 +439,12 @@ body {
 
 /* ---------------------------------- funder-interest --------------------- */
 
+#founder-interest{
+  display: flex;
+  flex-direction: column;
+
+}
+
 .heaings {
   text-align: center;
 }
