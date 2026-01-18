@@ -226,4 +226,21 @@
   .imges{
     display: none;
   }
+
+  /* ------------------------community ------------- */
+
+  .main-heding{
+    padding: 0px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .talk{
+    padding: 10px;
+    margin-left: calc(10px - 100px);
+  }
+  
+  .it{
+    width: 110%;
+    padding: 10px;
+  }
 }

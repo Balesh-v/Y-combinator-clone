@@ -480,9 +480,45 @@ li::marker{
   display: flex;
   gap: 30px;
   margin-left: 150px;
-  /* border-radius: 2px ; */
 }
 
 .imges img{
   border-radius: 5px;
+}
+
+/* ----------------------------------- community ----------------- */
+
+#community{
+  display: flex;
+  background-color: white;
+  padding: 70px;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.main-heding{
+  padding-left: 35%;  
+  text-align: justify;
+}
+
+.talk{
+  padding: 30px;
+}
+
+.it{
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+
+
+}
+
+.it img{
+  border-radius: 10px;
+}
+
+.it p{
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
 }
