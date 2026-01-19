@@ -522,3 +522,11 @@ li::marker{
   line-height: 30px;
   text-align: justify;
 }
+
+ /* <!-- latest from yc --> */
+
+ .latest{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+ }
