@@ -69,3 +69,5 @@ drop[6].addEventListener('click', function(){
     dropContent[1].style.display = "none";
     dropContent[2].style.display = "none";
 })
+
+

@@ -528,5 +528,37 @@ li::marker{
  .latest{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 50px;
+  gap: 30px;
  }
+
+ /* ------------------------------------ slider ------------------------ */
+
+ .slider{
+  width: 79%;
+  height: auto;
+  /* background-color: white; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  overflow: hidden;
+  overflow-x: scroll;
+  /* position: fixed; */
+ }
+
+ .iid{
+  border-radius: 10px;
+ }
+
+ .rih{
+  position: relative;
+  top: calc(10px - 170px );
+  left: 500px;
+  font-size: 30px;
+  /* color: red; */
+
+ }
+
