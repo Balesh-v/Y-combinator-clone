@@ -263,7 +263,8 @@ body {
   background-color: #f0f0e9;
   position: absolute;
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   text-align: center;
   padding-top: 30px;
@@ -439,56 +440,54 @@ body {
 
 /* ---------------------------------- funder-interest --------------------- */
 
-#founder-interest{
+#founder-interest {
   display: flex;
   justify-content: center;
   align-self: center;
   flex-direction: column;
-  padding-bottom:50px ;
+  padding-bottom: 50px;
 }
 
-#founder-interest h1{
+#founder-interest h1 {
   text-align: center;
   font-size: 25px;
 }
 
-
-#item-box{
+#item-box {
   display: flex;
   justify-content: center;
-  align-items:center ;
-
+  align-items: center;
 }
 
-.item{
+.item {
   padding: 30px;
   margin: 20px 50px;
   width: fit-content;
 }
 
-.item ul li{
+.item ul li {
   padding: 10px;
 }
 
-li::marker{
+li::marker {
   list-style-position: inside;
   font-size: 25px;
-   color: #fb651e;
+  color: #fb651e;
 }
 
-.imges{
+.imges {
   display: flex;
   gap: 30px;
   margin-left: 150px;
 }
 
-.imges img{
+.imges img {
   border-radius: 5px;
 }
 
 /* ----------------------------------- community ----------------- */
 
-#community{
+#community {
   display: flex;
   background-color: white;
   padding: 70px;
@@ -496,69 +495,62 @@ li::marker{
   margin: 10px;
 }
 
-.main-heding{
-  padding-left: 35%;  
+.main-heding {
+  padding-left: 35%;
   text-align: justify;
 }
 
-.talk{
+.talk {
   padding: 30px;
 }
 
-.it{
+.it {
   display: flex;
   gap: 30px;
   margin: 30px;
-
-
 }
 
-.it img{
+.it img {
   border-radius: 10px;
 }
 
-.it p{
+.it p {
   font-size: 16px;
   line-height: 30px;
   text-align: justify;
 }
 
- /* <!-- latest from yc --> */
+/* <!-- latest from yc --> */
 
- .latest{
+.latest {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 50px;
   gap: 30px;
- }
+}
 
- /* ------------------------------------ slider ------------------------ */
+/* ------------------------------------ slider ------------------------ */
 
- .slider{
+.slider {
   width: 79%;
   height: auto;
-  /* background-color: white; */
   padding: 10px;
   display: flex;
   flex-direction: row;
   gap: 30px;
   overflow: hidden;
   overflow-x: scroll;
-  /* position: fixed; */
- }
+}
 
- .iid{
+.iid {
   border-radius: 10px;
- }
+}
 
- .rih{
+.rih {
   position: relative;
-  top: calc(10px - 170px );
+  top: calc(10px - 170px);
   left: 500px;
   font-size: 30px;
-  /* color: red; */
-
- }
-
+}

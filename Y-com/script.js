@@ -5,7 +5,11 @@ let MobileOpen = document.querySelector('.Mobile-open');
 let  faXmark = document.querySelector('.def')
 let body = document.querySelector('body');  
 let drop = document.querySelectorAll(".box");
-let dropContent = document.querySelectorAll(".dropdown-content-mobile")
+let dropContent = document.querySelectorAll(".dropdown-content-mobile");
+let arrow = document.getElementById("arrow")
+let slider = document.getElementsByClassName("iid")
+console.log(slider)
+
 
 
 //------------------ function for Menu For Mobile  ------------------//
@@ -68,6 +72,16 @@ drop[6].addEventListener('click', function(){
     dropContent[0].style.display = "none";
     dropContent[1].style.display = "none";
     dropContent[2].style.display = "none";
+})
+
+
+
+arrow.addEventListener('click' , function(){
+    for(let i of slider){
+      i.style.transform = "translateX(-330%)"
+
+    }
+  
 })
 
 
