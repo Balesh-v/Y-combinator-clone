@@ -6,9 +6,9 @@ let faXmark = document.querySelector(".def");
 let body = document.querySelector("body");
 let drop = document.querySelectorAll(".box");
 let dropContent = document.querySelectorAll(".dropdown-content-mobile");
-let arrow = document.getElementById("arrow");
-let slider = document.querySelectorAll(".iid");
-console.log(slider);
+// let arrow = document.getElementById("arrow");
+// let slider = document.querySelectorAll(".iid");
+// console.log(slider);
 
 //------------------ function for Menu For Mobile  ------------------//
 
@@ -70,12 +70,19 @@ drop[6].addEventListener("click", function () {
   dropContent[2].style.display = "none";
 });
 
-count = 30;
+// count = 10;
 
-arrow.addEventListener("click", function () {
-  for (let i of slider) {
-    i.style.transform = `translateX(-${count * 10}px)`;
-    i.style.gap = '30px';
-    count++;
-  }
-});
+// arrow.addEventListener("click", function () {
+//   for (let i of slider) {
+
+//     if (count < slider.length) {
+//       i.style.transform = `translateX(-${count * 10}px)`;
+//       i.style.gap = '30px';
+//       count++;
+//     } else {
+//       i.style.transform = `translateX(0px)`;
+//       count = 1;
+//     }
+//   }
+// });
+  

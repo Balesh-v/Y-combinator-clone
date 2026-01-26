@@ -533,14 +533,13 @@ li::marker {
 
 /* ------------------------------------ slider ------------------------ */
 
-.slider {
+/* .slider {
 
   width: 82%;
   height: auto;
   padding: 10px;
   display: flex;
   flex-direction: row;
-  /* gap: 30px; */
   overflow: hidden;
   overflow-x: scroll;
 }
@@ -556,4 +555,4 @@ li::marker {
   top: calc(10px - 170px);
   left: 550px;
   font-size: 30px;
-}
+} */
