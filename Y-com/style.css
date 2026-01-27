@@ -531,7 +531,37 @@ li::marker {
   gap: 30px;
 }
 
+
 /* ------------------------------------ slider ------------------------ */
+
+
+#slider-section{
+  padding: 50px;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.arrow-slider{
+  font-size: 30px;
+}
+
+.fram{
+  border: 1px solid black;
+  display: flex;
+  width: 81%;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.slider{
+  display: flex;
+  gap: 30px;
+}
 
 /* .slider {
 
