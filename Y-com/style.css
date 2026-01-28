@@ -537,13 +537,14 @@ li::marker {
 
 #slider-section{
   padding: 50px;
+  text-align: center;
 }
 
 .main-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 5px;
 }
 
 .arrow-slider{
@@ -551,7 +552,6 @@ li::marker {
 }
 
 .fram{
-  border: 1px solid black;
   display: flex;
   width: 81%;
   padding: 30px;
@@ -561,28 +561,11 @@ li::marker {
 .slider{
   display: flex;
   gap: 30px;
+  
 }
 
-/* .slider {
-
-  width: 82%;
-  height: auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  overflow-x: scroll;
-}
-
-.iid {
+.iid{
   border-radius: 10px;
-  position: relative;
-  margin-left: 30px;
 }
 
-.rih {
-  position: relative;
-  top: calc(10px - 170px);
-  left: 550px;
-  font-size: 30px;
-} */
+

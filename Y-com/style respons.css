@@ -243,4 +243,8 @@
     width: 110%;
     padding: 10px;
   }
+
+  #slider-section{
+     display: none;
+  }
 }

@@ -6,9 +6,14 @@ let faXmark = document.querySelector(".def");
 let body = document.querySelector("body");
 let drop = document.querySelectorAll(".box");
 let dropContent = document.querySelectorAll(".dropdown-content-mobile");
-// let arrow = document.getElementById("arrow");
-// let slider = document.querySelectorAll(".iid");
-// console.log(slider);
+let left = document.querySelector(".arrow-left");
+let right = document.querySelector(".arrow-right");
+let slider = document.querySelector(".slider");
+let sliders = document.querySelectorAll(".iid");
+let slet = document.getElementById("slet");
+console.log(slider);
+
+
 
 //------------------ function for Menu For Mobile  ------------------//
 
@@ -70,19 +75,25 @@ drop[6].addEventListener("click", function () {
   dropContent[2].style.display = "none";
 });
 
-// count = 10;
+count = 1;
 
-// arrow.addEventListener("click", function () {
-//   for (let i of slider) {
+right.addEventListener("click", function () {
+  if (count >= sliders.length / 3) {
+    count = 0;
+  }
+  slider.style.transform = `translateX(${-25.2 * count}%)`;
+  slider.style.transition = "all 0.5s ease-in-out";
+  count++;
+});
 
-//     if (count < slider.length) {
-//       i.style.transform = `translateX(-${count * 10}px)`;
-//       i.style.gap = '30px';
-//       count++;
-//     } else {
-//       i.style.transform = `translateX(0px)`;
-//       count = 1;
-//     }
-//   }
-// });
-  
+left.addEventListener("click", function () {
+  if (count <= 1) {
+    count = sliders.length / 3;
+  }
+  slet.style.display = "block";
+
+  slider.style.transform = `translateX(${-25.2 * (count - 2)}%)`;
+
+  slider.style.transition = "all 0.5s ease-in-out";
+  count--;
+});
