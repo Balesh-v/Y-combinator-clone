@@ -247,4 +247,30 @@
   #slider-section{
      display: none;
   }
+
+  /* =------------------------- footer ------------------------------*/
+
+    #footer{
+      padding: 50px;
+    }
+
+    .footer-section1{
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-links{
+      /* padding: 0px; */
+      flex-wrap: wrap;
+      justify-content: left;
+      gap: 30px;
+    }
+
+     #footer-section2{
+      flex-direction: column;
+      gap: 30px;
+     }
+
+
+
 }
